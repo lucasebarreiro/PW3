@@ -1,0 +1,11 @@
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.infrastructure\obj\Debug\net8.0\PW3.infrastructure.sourcelink.json

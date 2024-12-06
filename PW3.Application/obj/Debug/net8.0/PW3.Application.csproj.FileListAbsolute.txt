@@ -1,0 +1,10 @@
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.Application\obj\Debug\net8.0\PW3.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.Application\obj\Debug\net8.0\PW3.Application.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.Application\obj\Debug\net8.0\PW3.Application.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\PW3.Presentation\PW3.Application\obj\Debug\net8.0\PW3.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Application\obj\Debug\net8.0\PW3.Application.sourcelink.json
