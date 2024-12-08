@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2HankjZTcvo=",
+  "dgSpecHash": "oN772W8z9HU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.Presentation\\PW3.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.Presentation\\PW3.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

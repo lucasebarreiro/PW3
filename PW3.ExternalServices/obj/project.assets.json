@@ -600,11 +600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.ExternalServices\\PW3.ExternalServices.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.ExternalServices\\PW3.ExternalServices.csproj",
       "projectName": "PW3.ExternalServices",
-      "projectPath": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.ExternalServices\\PW3.ExternalServices.csproj",
+      "projectPath": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.ExternalServices\\PW3.ExternalServices.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.ExternalServices\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.ExternalServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

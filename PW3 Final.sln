@@ -3,15 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PW3.Presentation", "PW3.Presentation\PW3.Presentation.csproj", "{E6746D67-77DF-4E4B-8017-D6D94008EC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PW3.Presentation", "PW3.Presentation\PW3.Presentation.csproj", "{E6746D67-77DF-4E4B-8017-D6D94008EC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PW3.Application", "PW3.Application\PW3.Application.csproj", "{0E289049-7F76-4FF3-96FB-2783CAD23A94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PW3.Application", "PW3.Application\PW3.Application.csproj", "{0E289049-7F76-4FF3-96FB-2783CAD23A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PW3.Domain", "PW3.Domain\PW3.Domain.csproj", "{6B087E73-0C50-4B63-8AD4-1158072ED7B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PW3.Domain", "PW3.Domain\PW3.Domain.csproj", "{6B087E73-0C50-4B63-8AD4-1158072ED7B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PW3.infrastructure", "PW3.infrastructure\PW3.infrastructure.csproj", "{A3A57421-B5F9-4F24-A2E0-EF703EB935F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PW3.infrastructure", "PW3.infrastructure\PW3.infrastructure.csproj", "{A3A57421-B5F9-4F24-A2E0-EF703EB935F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PW3.ExternalServices", "PW3.ExternalServices\PW3.ExternalServices.csproj", "{16C241BF-B3F8-4B17-B08F-C3B6FC1AA77D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PW3.ExternalServices", "PW3.ExternalServices\PW3.ExternalServices.csproj", "{16C241BF-B3F8-4B17-B08F-C3B6FC1AA77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5169E71-9D73-457E-89D6-5158BE1E68BF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ED0DEE38-98EE-4120-8E0B-FCA4E5DC68DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +49,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6746D67-77DF-4E4B-8017-D6D94008EC50} = {B5169E71-9D73-457E-89D6-5158BE1E68BF}
+		{0E289049-7F76-4FF3-96FB-2783CAD23A94} = {B5169E71-9D73-457E-89D6-5158BE1E68BF}
+		{6B087E73-0C50-4B63-8AD4-1158072ED7B9} = {B5169E71-9D73-457E-89D6-5158BE1E68BF}
+		{A3A57421-B5F9-4F24-A2E0-EF703EB935F7} = {B5169E71-9D73-457E-89D6-5158BE1E68BF}
+		{16C241BF-B3F8-4B17-B08F-C3B6FC1AA77D} = {B5169E71-9D73-457E-89D6-5158BE1E68BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81BF0316-42AD-475D-9852-E5F7C64EE26C}

@@ -600,11 +600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.Application\\PW3.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.Application\\PW3.Application.csproj",
       "projectName": "PW3.Application",
-      "projectPath": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.Application\\PW3.Application.csproj",
+      "projectPath": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.Application\\PW3.Application.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\source\\repos\\PW3.Presentation\\ProgramacionWeb3\\PW3.Application\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\OneDrive\\Desktop\\PW3\\PW3.Presentation\\ProgramacionWeb3\\PW3\\PW3.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

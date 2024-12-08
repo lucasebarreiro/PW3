@@ -1,0 +1,59 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppx/
+[Aa]ppxPackages/
+[Aa]rtifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders for IIS
+_IISExpress/
+.idea/
+
+# Recycle Bin used by IIS
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.tlog
+*.vspscc
+
+# Visual Studio specific
+.vs/
+*.vssscc
+
+# Rider
+.idea/
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Code coverage
+*.coverage
+*.coveragexml
+*.coveragef
+
+# Npm folders
+node_modules/
+
+# Nuget Packages
+*.nupkg
+*.snupkg
+packages/
