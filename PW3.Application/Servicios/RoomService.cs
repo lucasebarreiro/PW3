@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PW3.Application.Interfaces
+﻿namespace PW3.Application.Interfaces
 {
-    internal class Class1
+    public class RoomService
     {
     }
 }

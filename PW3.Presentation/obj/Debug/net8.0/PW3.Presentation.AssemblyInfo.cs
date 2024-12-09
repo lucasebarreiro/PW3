@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PW3.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e4e09663ed0f8c7f385118f083d6e859b0fb483")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d58215847d2a339d1a9e46642e5931311e9107f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PW3.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PW3.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

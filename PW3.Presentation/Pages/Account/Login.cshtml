@@ -1,0 +1,15 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Inicio de Sesión";
+}
+
+<h2>Iniciar Sesión</h2>
+
+<form method="post">
+    <label>Usuario</label>
+    <input asp-for="Username" />
+    <label>Contraseña</label>
+    <input asp-for="Password" type="password" />
+    <button type="submit">Ingresar</button>
+</form>

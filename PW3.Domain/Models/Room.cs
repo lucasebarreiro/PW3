@@ -6,8 +6,9 @@ namespace PW3.Domain.Models
     {
         [Key]
         public int Id { get; set; }
-        public User Player1 { get; set; }
-        public User Player2 { get; set; }
-        public DateTime Gamedate { get; set; }
+        public List<User> Users { get; set; } = [];
+        public List<GameWord> Words { get; set; } = [];
+        public DateTime StartTime { get; set; }
+        public DateTime Endtime { get; set; }
     }
 }
