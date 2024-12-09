@@ -9,4 +9,4 @@ namespace PW3.Application.Interfaces
         Task<bool> ExistsByUsernameAsync(string username, CancellationToken cancellationToken);
     }
 }
-}
+

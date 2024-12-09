@@ -313,3 +313,5 @@ C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Pr
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Presentation\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Presentation\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Presentation\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Presentation\bin\Debug\net8.0\BouncyCastle.Crypto.dll
