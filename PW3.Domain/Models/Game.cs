@@ -2,7 +2,7 @@
 
 namespace PW3.Domain.Models
 {
-    public class Room
+    public class Game
     {
         [Key]
         public int Id { get; set; }

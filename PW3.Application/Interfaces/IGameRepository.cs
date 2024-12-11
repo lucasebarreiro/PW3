@@ -1,6 +1,6 @@
 ﻿namespace PW3.Application.Interfaces
 {
-    public interface IRoomService
+    public interface IGameRepository
     {
     }
 }

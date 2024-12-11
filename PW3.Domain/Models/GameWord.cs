@@ -6,5 +6,5 @@ public class GameWord
     public string? Word { get; set; }
     public bool IsGuessed { get; set; }
     public int GameSessionId { get; set; }
-    public Room? Room { get; set; }
+    public Game? Room { get; set; }
 }

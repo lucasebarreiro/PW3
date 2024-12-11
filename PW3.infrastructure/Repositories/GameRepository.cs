@@ -3,6 +3,6 @@
 namespace PW3.infrastructure.Repositories
 {
 
-    public class RoomRepository : IRoomRepository;
+    public class GameRepository : IGameRepository;
 
 }
