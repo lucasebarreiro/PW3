@@ -3,6 +3,8 @@
     public class ScoreDto
     {
         public int UserId { get; set; }
-        public int Score { get; set; }
+        public int Points { get; set; }
+
+
     }
 }

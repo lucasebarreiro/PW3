@@ -1,19 +1,12 @@
 ﻿using PW3.Application.DTOs;
+using PW3.Domain.Models;
 
 namespace PW3.Application.Interfaces
 {
-{
-    public class GameService : IGameService
+    public class GameService(IRandomWordProvider randomWordProvider, IScoreRepository scoreRepository) : IGameService
     {
-        private readonly IRandomWordProvider _randomWordProvider;
-        private readonly IScoreRepository _scoreRepository;
-
-        public GameService(IRandomWordProvider randomWordProvider, IScoreRepository scoreRepository)
-        {
-            _randomWordProvider = randomWordProvider;
-            _scoreRepository = scoreRepository;
-        }
-
+        private readonly IRandomWordProvider _randomWordProvider = randomWordProvider;
+        private readonly IScoreRepository _scoreRepository = scoreRepository;
 
         public async Task<IEnumerable<string>> GetRandomWordsAsync(CancellationToken cancellationToken)
         {
