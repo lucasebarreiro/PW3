@@ -19,6 +19,16 @@ namespace PW3.infrastructure.Repositories
             return await _context.Users.AnyAsync(u => u.Username == username, cancellationToken);
         }
 
+        public async Task<IEnumerable<User>> GetAllAsync()
+        {
+            return await _context.Users.ToListAsync();
+        }
+
+        public async Task<User> GetByIdAsync(int id, CancellationToken cancellationToken)
+        {
+            return await _context.Users.FindAsync(id, cancellationToken);
+        }
+
         public async Task<User?> GetByUsernameAsync(string username, CancellationToken cancellationToken)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Username == username, cancellationToken);

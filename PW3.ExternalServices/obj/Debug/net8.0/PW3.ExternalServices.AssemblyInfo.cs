@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PW3.ExternalServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f3880ddc27433be0abbba4bfee8b06e030164a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16323acf7a1e7bd01e5db9033bf437ad790d1961")]
 [assembly: System.Reflection.AssemblyProductAttribute("PW3.ExternalServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PW3.ExternalServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

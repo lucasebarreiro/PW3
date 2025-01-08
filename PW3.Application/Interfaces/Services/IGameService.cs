@@ -1,10 +1,9 @@
-﻿using PW3.Application.DTOs;
+﻿using PW3.Domain.Models;
 
 namespace PW3.Application.Servicios
 {
     public interface IGameService
     {
-        Task<IEnumerable<string>> GetRandomWordsAsync(CancellationToken cancellationToken);
-        Task RegisterScoreAsync(ScoreDto scoreDto, CancellationToken cancellationToken);
+        Task<Game> CreateGameSessionAsync(int userId, int user2Id, int duracionEnSegundos, CancellationToken cancellationToken);
     }
 }
