@@ -1,6 +1,6 @@
 ﻿using PW3.Domain.Models;
 
-namespace PW3.Application.Interfaces;
+namespace PW3.Application.Interfaces.Repositories;
 
 public interface IScoreRepository
 {

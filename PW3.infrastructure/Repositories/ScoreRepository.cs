@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PW3.Application.Interfaces;
+using PW3.Application.Interfaces.Repositories;
 using PW3.Domain.Models;
 using PW3.infrastructure.Contexts;
 

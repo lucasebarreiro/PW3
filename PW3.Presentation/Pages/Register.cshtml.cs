@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using PW3.Application.Interfaces;
+using PW3.Application.Interfaces.Services;
 
 namespace PW3.Presentation.Pages
 {

@@ -1,4 +1,5 @@
-﻿using PW3.Application.Interfaces;
+﻿using PW3.Application.Interfaces.Repositories;
+using PW3.Application.Interfaces.Services;
 using PW3.Domain.Models;
 
 namespace PW3.Application.Servicios

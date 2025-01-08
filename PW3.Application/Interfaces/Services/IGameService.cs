@@ -1,6 +1,6 @@
 ﻿using PW3.Application.DTOs;
 
-namespace PW3.Application.Interfaces
+namespace PW3.Application.Servicios
 {
     public interface IGameService
     {

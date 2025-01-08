@@ -8,8 +8,7 @@ namespace PW3.Domain.Models
         [Key]
         public int Id { get; set; }
         public string? Username { get; set; }
-        public string? Password { get; set; }
-        public int Score { get; set; }
+        public int Score { get; set; } = 0;
 
     }
 }
