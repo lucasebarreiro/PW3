@@ -28,6 +28,12 @@ namespace PW3.infrastructure.Repositories
         {
             await _context.Games.ToListAsync();
         }
+
+        public async Task UpdateAsync(Game game, CancellationToken cancellationToken)
+        {
+            _context.Games.Update(game);
+            await _context.SaveChangesAsync();
+        }
     }
 
 }

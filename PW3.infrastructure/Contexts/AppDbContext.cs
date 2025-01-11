@@ -12,7 +12,7 @@ namespace PW3.infrastructure.Contexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuración de Usuario
+
             modelBuilder.Entity<User>(entity =>
             {
                 entity.HasKey(u => u.Id);
@@ -23,18 +23,18 @@ namespace PW3.infrastructure.Contexts
 
             });
 
-            // Configuración de Juego
+
             modelBuilder.Entity<Game>(entity =>
             {
                 entity.HasKey(g => g.Id);
 
-                // Relación con Usuario1
+
                 entity.HasOne(g => g.Usuario1)
                     .WithMany()
                     .HasForeignKey(g => g.Usuario1Id)
                     .OnDelete(DeleteBehavior.Restrict); // Evitar eliminación en cascada
 
-                // Relación con Usuario2
+
                 entity.HasOne(g => g.Usuario2)
                     .WithMany()
                     .HasForeignKey(g => g.Usuario2Id)
@@ -47,7 +47,7 @@ namespace PW3.infrastructure.Contexts
                     .IsRequired();
             });
 
-            // Configuración de Palabra
+
             modelBuilder.Entity<GameWord>(entity =>
             {
                 entity.HasKey(w => w.Id);

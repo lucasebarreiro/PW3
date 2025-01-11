@@ -2,8 +2,8 @@
 {
     public interface IUserService
     {
-        Task<bool> RegisterUserAsync(string username, string password);
-        Task<bool> ValidateUserAsync(string username, string password);
+        Task<bool> RegisterUserAsync(string username);
+        Task<bool> ValidateUserAsync(string username);
 
     }
 }

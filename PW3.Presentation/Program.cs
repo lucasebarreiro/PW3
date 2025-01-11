@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using PW3.Application.Interfaces;
 using PW3.Application.Interfaces.Repositories;
 using PW3.Application.Interfaces.Services;
 using PW3.Application.Servicios;
 using PW3.infrastructure.Contexts;
 using PW3.infrastructure.Repositories;
+using PW3.Presentation.Hubs;
 using System.Text;
 
 
@@ -37,6 +39,15 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IGameRepository, GameRepository>();
 builder.Services.AddScoped<IWordRepository, WordRepository>();
+builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IRandomWordProviderService, RandomWordProviderService>();
+
+builder.Services.AddHttpClient<IRandomWordProviderService, RandomWordProviderService>();
+
+builder.Services.AddSignalR();
+
+builder.Services.AddControllers();
+
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
@@ -51,12 +62,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-//Migration? xdd
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    dbContext.Database.Migrate();
-}
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -67,5 +73,9 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+
+app.MapControllers();
+app.MapHub<GameHub>("/gameHub");
 
 app.Run();

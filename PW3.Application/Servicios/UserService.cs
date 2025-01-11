@@ -6,7 +6,7 @@ namespace PW3.Application.Servicios
 {
     public class UserService(IUserRepository _userRepository) : IUserService
     {
-        public async Task<bool> RegisterUserAsync(string username, string password)
+        public async Task<bool> RegisterUserAsync(string username)
         {
             if (await _userRepository.ExistsByUsernameAsync(username, CancellationToken.None))
                 return false;
@@ -14,7 +14,6 @@ namespace PW3.Application.Servicios
             var user = new User
             {
                 Username = username,
-                Password = password
             };
 
             await _userRepository.AddAsync(user, CancellationToken.None);
@@ -22,10 +21,10 @@ namespace PW3.Application.Servicios
 
         }
 
-        public async Task<bool> ValidateUserAsync(string username, string password)
+        public async Task<bool> ValidateUserAsync(string username)
         {
             var user = await _userRepository.GetByUsernameAsync(username, CancellationToken.None);
-            return user != null && (user.Password == password);
+            return user != null;
 
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PW3.infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16323acf7a1e7bd01e5db9033bf437ad790d1961")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf074a9edee1b8f47598a6463204c0d0bb4010ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("PW3.infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PW3.infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

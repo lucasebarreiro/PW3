@@ -9,6 +9,8 @@ namespace PW3.Application.Interfaces.Repositories
         Task<IEnumerable<Game>> GetAllAsync(CancellationToken cancellationToken);
         Task SaveAsync(CancellationToken cancellationToken);
 
+        Task UpdateAsync(Game Game, CancellationToken cancellationToken);
+
 
     }
 }
