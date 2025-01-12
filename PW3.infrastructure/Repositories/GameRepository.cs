@@ -10,13 +10,13 @@ namespace PW3.infrastructure.Repositories
     {
         public async Task AddAsync(Game Game, CancellationToken cancellationToken)
         {
-            await _context.Games.AddAsync(Game);
-            await _context.SaveChangesAsync();
+            _context.Games.Add(Game);
+            await _context.SaveChangesAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<Game>> GetAllAsync(CancellationToken cancellationToken)
         {
-            return await _context.Games.ToListAsync();
+            return await _context.Games.ToListAsync(cancellationToken);
         }
 
         public async Task<Game> GetByIdAsync(int id, CancellationToken cancellationToken)
@@ -26,7 +26,7 @@ namespace PW3.infrastructure.Repositories
 
         public async Task SaveAsync(CancellationToken cancellationToken)
         {
-            await _context.Games.ToListAsync();
+            await _context.Games.ToListAsync(cancellationToken);
         }
 
         public async Task UpdateAsync(Game game, CancellationToken cancellationToken)

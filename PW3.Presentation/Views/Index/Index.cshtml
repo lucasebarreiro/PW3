@@ -1,16 +1,18 @@
-﻿@page
-@model IndexModel
+﻿@using PW3.Presentation.ViewModels
+@model CreateGameViewModel
 @{
     ViewData["Title"] = "Lobby";
 }
 
 <h1>Bienvenido a Escribiendo rapidirijillo</h1>
+<h2>ID: @ViewBag.Id</h2>
 <form method="post">
     <label for="playerName">Nombre de Usuario:</label>
-    <input type="text" id="playerName" name="PlayerName" required />
+    <input type="text" id="playerName" asp-for="PlayerName" required />
+    <span style="color: red;">@ViewBag.Error</span>
     <br>
     <label for="gameId">ID de la Sala:</label>
-    <input type="number" id="gameId" name="GameId" />
+    <input type="number" id="gameId" asp-for="GameId" />
 
     <button type="submit">Unirse al Juego</button>
     <button type="submit">Crear Sala</button>

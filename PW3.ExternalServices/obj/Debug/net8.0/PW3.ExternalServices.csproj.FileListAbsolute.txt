@@ -25,7 +25,6 @@ C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.ExternalServic
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\bin\Debug\net8.0\PW3.ExternalServices.deps.json
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\bin\Debug\net8.0\PW3.ExternalServices.dll
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\bin\Debug\net8.0\PW3.ExternalServices.pdb
-C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\obj\Debug\net8.0\PW3.ExternalServices.csproj.AssemblyReference.cache
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\obj\Debug\net8.0\PW3.ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\obj\Debug\net8.0\PW3.ExternalServices.AssemblyInfoInputs.cache
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.ExternalServices\obj\Debug\net8.0\PW3.ExternalServices.AssemblyInfo.cs

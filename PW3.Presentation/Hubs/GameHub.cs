@@ -41,6 +41,6 @@ public class GameHub(IGameService _gameService) : Hub
     public async Task EndGame(int gameId, CancellationToken cancellationToken)
     {
         var gameResult = await _gameService.GetGameResultAsync(gameId, cancellationToken);
-        await Clients.Group($"game-{gameId}").SendAsync("GameEnded", gameResult);
+        await Clients.Group($"game-{gameId}").SendAsync("GameEnded", gameResult, cancellationToken);
     }
 }

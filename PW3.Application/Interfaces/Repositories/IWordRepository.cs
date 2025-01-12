@@ -5,5 +5,5 @@ namespace PW3.Application.Interfaces.Repositories;
 public interface IWordRepository
 {
     Task AddAsync(GameWord Word);
-    Task<IEnumerable<GameWord>> GetWordsPerGameIdAsync(int GameId, CancellationToken cancellationToken);
+    Task<List<GameWord>> GetWordsPerGameIdAsync(int GameId, CancellationToken cancellationToken);
 }

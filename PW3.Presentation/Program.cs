@@ -46,8 +46,7 @@ builder.Services.AddHttpClient<IRandomWordProviderService, RandomWordProviderSer
 
 builder.Services.AddSignalR();
 
-builder.Services.AddControllers();
-
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
@@ -75,7 +74,9 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 
-app.MapControllers();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Index}/{action=Index}/{id?}");
 app.MapHub<GameHub>("/gameHub");
 
 app.Run();

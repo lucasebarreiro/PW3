@@ -15,8 +15,6 @@ namespace PW3.infrastructure.Contexts
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(u => u.Id);
-
                 entity.Property(u => u.Username)
                     .IsRequired()
                     .HasMaxLength(50);
@@ -26,9 +24,6 @@ namespace PW3.infrastructure.Contexts
 
             modelBuilder.Entity<Game>(entity =>
             {
-                entity.HasKey(g => g.Id);
-
-
                 entity.HasOne(g => g.Usuario1)
                     .WithMany()
                     .HasForeignKey(g => g.Usuario1Id)
@@ -50,8 +45,6 @@ namespace PW3.infrastructure.Contexts
 
             modelBuilder.Entity<GameWord>(entity =>
             {
-                entity.HasKey(w => w.Id);
-
                 entity.Property(w => w.Word)
                     .IsRequired()
                     .HasMaxLength(100);
@@ -61,10 +54,6 @@ namespace PW3.infrastructure.Contexts
                     .HasForeignKey(w => w.GameId);
             });
         }
-
-
-
-
     }
 }
 

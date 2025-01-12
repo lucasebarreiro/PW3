@@ -38,14 +38,10 @@ namespace PW3.Application.Interfaces
             return game;
         }
 
-        public async Task GetGameResultAsync(int gameId, CancellationToken cancellationToken)
+        public async Task<GameResult> GetGameResultAsync(int gameId, CancellationToken cancellationToken)
         {
-            var game = await _gameRepository.GetByIdAsync(gameId, cancellationToken);
-            if (game == null)
-            {
-                throw new Exception("juego No Encontra2");
-            }
-            var result = new GameResult
+            var game = await _gameRepository.GetByIdAsync(gameId, cancellationToken) ?? throw new Exception("juego No Encontra2");
+            return new GameResult
             {
                 GameId = gameId,
                 Usuario1Id = game.Usuario1Id,

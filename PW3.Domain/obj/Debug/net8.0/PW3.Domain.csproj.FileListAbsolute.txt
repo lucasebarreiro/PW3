@@ -25,7 +25,6 @@ C:\Users\Lucas\source\repos\PW3.Presentation\ProgramacionWeb3\PW3.Domain\obj\Deb
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\bin\Debug\net8.0\PW3.Domain.deps.json
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\bin\Debug\net8.0\PW3.Domain.dll
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\bin\Debug\net8.0\PW3.Domain.pdb
-C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\obj\Debug\net8.0\PW3.Domain.csproj.AssemblyReference.cache
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\obj\Debug\net8.0\PW3.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\obj\Debug\net8.0\PW3.Domain.AssemblyInfoInputs.cache
 C:\Users\Lucas\OneDrive\Desktop\PW3\PW3.Presentation\ProgramacionWeb3\PW3\PW3.Domain\obj\Debug\net8.0\PW3.Domain.AssemblyInfo.cs

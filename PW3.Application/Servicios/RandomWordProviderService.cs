@@ -9,7 +9,7 @@ namespace PW3.Application.Servicios
             var response = await _httpClient.GetStringAsync("https://clientes.api.greenborn.com.ar/public-random-word", cancellationToken);
             if (string.IsNullOrEmpty(response))
             {
-                throw new Exception("No se pudo obtener una palabra de la API.");
+                throw new ArgumentException("No se pudo obtener una palabra de la API.");
             }
 
             return response;
